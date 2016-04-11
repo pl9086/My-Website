@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville|Questrial|PT+Sans:700);
+
+@font-face {
+    font-family: Futlight;
+    src: url(futurLig.LWFN);
+}
+
+    body {
+        background-color: #f2f2f2;
+        margin: 0px;
+        font-family: sans-serif;
+    }
+    
+     *  {
+        outline: yellow solid 1px;
+    }
+    
+    .header {
+        background-color: #ffffff;
+        padding-top: 40px;
+    }
+    
+    .nav {
+        max-width: 1150px;
+        margin-left: auto;
+        margin-right: auto;
+        color: black;
+        height: 600px;
+    }
+    
+    .links {
+        float: left;
+        
+        font-family: 'Libre Baskerville', Georgia, serif;
+    }
+    
+    .links a {
+        text-decoration: none;
+        color: #707070;
+        line-height: 200%;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    li a:hover {
+         color:#adacac;
+    }
+    
+    li a.active {
+         color:#2b251e
+    }
+         
+    .mono {
+         float:left;
+         width: 120px;
+         height: 128px;
+         margin-left: 20px;
+    }
+    
+    .name {
+         float:right;
+         /*width: 50%;*/
+         margin-top: 0px;
+         /*margin-right: 100px;*/
+         font-family: 'Futlight', Arial, sans-serif;
+    }
+    
+    .title {
+         margin-top: 54px;
+         font-size: 4.85em;
+         font-family: 'PT Sans', Arial, sans-serif;
+         text-align: center;
+    }
+    
+    .subtitle {
+         font-size: 1.75em;
+         text-align: center;
+    }
+    
+    .blurb {
+          font-size: 1.75em;
+          color: #707070;
+          margin-top: 40px;
+          margin-bottom: 40px;
+          /*margin-right: 160px;*/
+    }
+    
+    .bar {
+    }
+    
+    @media
